@@ -4,7 +4,6 @@ require 'mongo'
 require 'nokogiri'
 require 'open-uri'
 require 'set'
-require 'redcloth'
 require 'yaml'
 require 'zlib'
 
