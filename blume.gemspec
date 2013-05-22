@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = 'blume'
-  spec.version       = '0.0.2'
+  spec.version       = '0.0.3'
   spec.authors       = ['Dan Breczinski']
   spec.email         = ['pt2323@gmail.com']
   spec.description   = 'Blume allows you to generate a static website from certain Sinatra projects.'
@@ -21,6 +21,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
 
-  spec.add_dependency 'mongo'
-  spec.add_dependency 'nokogiri'
+  spec.add_dependency 'mongo', '~> 1.8.4'
+  spec.add_dependency 'nokogiri', '~> 1.5.9'
 end
