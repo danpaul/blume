@@ -10,4 +10,3 @@ require 'zlib'
 
 require 'blume/blume.rb'
 require 'blume/pilgrim.rb'
-#require 'blume/version'
