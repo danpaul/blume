@@ -1,11 +1,12 @@
 class Blume
 	def initialize(options_in = {})
-		options = {collection: nil,
-            content_directory: File.join(Dir.pwd, 'content'),
-           living_dangerously: true,
-               		 root_url: 'http://localhost:4567',
-               site_directory: File.join(Dir.pwd, 'site'),
-               		   assets: File.join(Dir.pwd, 'public')
+		options = {
+      collection: nil,
+      content_directory: File.join(Dir.pwd, 'content'),
+      living_dangerously: true,
+      root_url: 'http://localhost:4567',
+      site_directory: File.join(Dir.pwd, 'site'),
+      assets: File.join(Dir.pwd, 'public')
              }.merge(options_in)
 		@collection = options[:collection]
 		@content_directory = options[:content_directory]
