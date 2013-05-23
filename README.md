@@ -18,7 +18,7 @@ You also need [MondgoDB](http://docs.mongodb.org/manual/) installed and running.
 
 ### Caveat
 
-Blume uses a few conventions, most are optional and can be over-ridden but there is one convention that is necessary. All URLs must be root-relative. For instance, "/, /sub, sub/sub..." not "www.mysite.com/, www.mysite.com/sub...". This behaviour may change in later releases but it wasn't necessary to implement absolute URLs for my needs so it has taken a low priority.
+Blume uses a few conventions, most are optional and can be over-ridden but there is one convention that is necessary. All internal URLs must be root-relative. For instance, "/, /sub, sub/sub..." not "www.mysite.com/, www.mysite.com/sub...". This behaviour may change in later releases but it wasn't necessary to implement absolute URLs for my needs so it has taken a low priority.
 
 ### Convetions
 
@@ -33,6 +33,8 @@ root
 ```
 
 ### Content
+
+
 
 posts folder structure and date structure
 
