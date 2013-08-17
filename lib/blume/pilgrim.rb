@@ -37,7 +37,6 @@ class Pilgrim
 	def parse_page(visited, unvisited)
 		current = unvisited.take(1)
 		visited << current[0]
-
 		page = Nokogiri::HTML(open(current[0]))
 		page.css('a').each do |p|
 			if p['href'].start_with? "/"
